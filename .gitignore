@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model weights / checkpoints
+*.pth
+*.pt
+*.bin
+*.ckpt
+*.safetensors
+
+# Logs and outputs
+wandb/
+logs/
+outputs/
+*.log
+
+# Data (large files)
+*.tar
+*.tar.gz
+*.zip
+*.h5
+*.hdf5

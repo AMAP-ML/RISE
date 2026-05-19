@@ -1,0 +1,117 @@
+# Unified benchmark registry.
+# Paths are relative to the RISE project root.
+
+datasets:
+  - name: MMMU
+    enabled: true
+    val_file: ../datasets/MMMU/test.parquet
+    gt_file: ../datasets/MMMU/test.parquet
+    prompt_key: problem
+    answer_key: answer
+    image_key: images
+    join_key: auto
+    eval_mode: rule
+    answer_format: text
+    val_include_options_in_prompt: false
+    val_force_choice_letter_output: false
+    val_force_yes_no_output: false
+    val_option_keys: ["options", "choices", "option"]
+    eval_normalize_image_placeholders: true
+    pred_out: ../storage_RISE_Qwen3-VL-8B/evaluation_metrics/{experiment_name}/{dataset_safe}_{model_name}_project.jsonl
+
+  - name: MM-Vet
+    enabled: true
+    val_file: ../datasets/mm-vet/test.parquet
+    gt_file: ../datasets/mm-vet/test.parquet
+    prompt_key: problem
+    answer_key: answer
+    image_key: images
+    join_key: auto
+    eval_mode: rule
+    answer_format: text
+    val_include_options_in_prompt: false
+    val_force_choice_letter_output: false
+    val_force_yes_no_output: false
+    val_option_keys: ["options", "choices", "option"]
+    eval_normalize_image_placeholders: true
+    pred_out: ../storage_RISE_Qwen3-VL-8B/evaluation_metrics/{experiment_name}/{dataset_safe}_{model_name}_project.jsonl
+
+  - name: RealWorldQA
+    enabled: true
+    val_file: ../datasets/realWorldQA/test.parquet
+    gt_file: ../datasets/realWorldQA/test.parquet
+    prompt_key: problem
+    answer_key: answer
+    image_key: images
+    join_key: auto
+    eval_mode: rule
+    answer_format: text
+    val_include_options_in_prompt: false
+    val_force_choice_letter_output: false
+    val_force_yes_no_output: false
+    val_option_keys: ["options", "choices", "option"]
+    eval_normalize_image_placeholders: true
+    pred_out: ../storage_RISE_Qwen3-VL-8B/evaluation_metrics/{experiment_name}/{dataset_safe}_{model_name}_project.jsonl
+
+  - name: MathVerse
+    enabled: true
+    val_file: ../datasets/mathVerse/test.parquet
+    gt_file: ../datasets/mathVerse/test.parquet
+    prompt_key: problem
+    answer_key: answer
+    image_key: images
+    join_key: auto
+    eval_mode: rule
+    answer_format: text
+    val_include_options_in_prompt: false
+    val_force_choice_letter_output: false
+    val_force_yes_no_output: false
+    val_option_keys: ["options", "choices", "option"]
+    eval_normalize_image_placeholders: true
+    pred_out: ../storage_RISE_Qwen3-VL-8B/evaluation_metrics/{experiment_name}/{dataset_safe}_{model_name}_project.jsonl
+
+  - name: MathVision
+    enabled: true
+    val_file: ../datasets/mathVision/test.parquet
+    gt_file: ../datasets/mathVision/test.parquet
+    prompt_key: problem
+    answer_key: answer
+    image_key: images
+    join_key: auto
+    eval_mode: rule
+    answer_format: text
+    val_include_options_in_prompt: false
+    val_force_choice_letter_output: false
+    val_force_yes_no_output: false
+    val_option_keys: ["options", "choices", "option"]
+    eval_normalize_image_placeholders: true
+    pred_out: ../storage_RISE_Qwen3-VL-8B/evaluation_metrics/{experiment_name}/{dataset_safe}_{model_name}_project.jsonl
+
+
+
+  - name: MathVista
+    enabled: true
+    val_file: ../datasets/mathvista/test.parquet
+    gt_file: ../datasets/mathvista/test.parquet
+    prompt_key: problem
+    answer_key: answer
+    image_key: images
+    join_key: auto
+    eval_mode: rule
+    answer_format: text
+    val_option_keys: ["options", "choices", "option"]
+    eval_normalize_image_placeholders: true
+
+  - name: ChartQA
+    enabled: true
+    val_file: ../datasets/ChartQA/test.parquet
+    gt_file: ../datasets/ChartQA/test.parquet
+    prompt_key: problem
+    answer_key: answer
+    image_key: images
+    join_key: auto
+    eval_mode: rule
+    answer_format: text
+    val_option_keys: ["options", "choices", "option"]
+    eval_normalize_image_placeholders: true
+
