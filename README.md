@@ -148,19 +148,7 @@ bash validation_examples/run_generate_and_eval.sh \
 - Intermediate generated questions and solver responses are saved under `$STORAGE_PATH/generated_question`.
 - Newly trained actor checkpoints are merged into Hugging Face format before being used in the next stage.
 
-## Citation
-
-If you find this repository useful, please cite our paper:
-
-```bibtex
-@article{xu2026rise,
-  title   = {RISE: Reliable Improvement in Self-Evolving Vision-Language Models},
-  author  = {Xu, Chaoran and Miao, Yingmao and Zhang, Pengfei and Dou, Hao and Sun, Lei and Chu, Xiangxiang},
-  journal = {Preprint},
-  year    = {2026}
-}
-```
 
 ## Acknowledgements
 
-We thank the open-source community for making this research easier to reproduce and extend. In particular, this project is inspired by and benefits from the open-source contributions of [R-Zero](https://github.com/Chengsong-Huang/R-Zero) and [VisPlay](https://github.com/bruno686/VisPlay), as well as the broader ecosystem around vLLM, Hugging Face Transformers, and GRPO-style VLM training.
+We thank the open-source community for making this research easier to reproduce and extend. In particular, this project is inspired by and benefits from the open-source contributions of [R-Zero](https://github.com/Chengsong-Huang/R-Zero) and [VisPlay](https://github.com/bruno686/VisPlay), as well as the broader ecosystem around vLLM, Hugging Face Transformers, and GRPO-style VLM training. We also gratefully acknowledge [veRL](https://github.com/volcengine/verl) for providing a flexible and efficient reinforcement learning training framework that serves as the foundation of our training pipeline.
