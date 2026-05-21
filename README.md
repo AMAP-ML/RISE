@@ -162,7 +162,7 @@ If you find this repository useful for your research, please consider citing our
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2605.20914}, 
 }
-
+```
 ## Acknowledgements
 
 We thank the open-source community for making this research easier to reproduce and extend. In particular, this project is inspired by and benefits from the open-source contributions of [R-Zero](https://github.com/Chengsong-Huang/R-Zero) and [VisPlay](https://github.com/bruno686/VisPlay), as well as the broader ecosystem around vLLM, Hugging Face Transformers, and GRPO-style VLM training. We also gratefully acknowledge [veRL](https://github.com/volcengine/verl) for providing a flexible and efficient reinforcement learning training framework that serves as the foundation of our training pipeline.
