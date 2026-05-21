@@ -148,6 +148,20 @@ bash validation_examples/run_generate_and_eval.sh \
 - Intermediate generated questions and solver responses are saved under `$STORAGE_PATH/generated_question`.
 - Newly trained actor checkpoints are merged into Hugging Face format before being used in the next stage.
 
+## Citation
+
+If you find this repository useful for your research, please consider citing our paper:
+
+```bibtex
+@misc{xu2026risereliableimprovementselfevolving,
+      title={RISE: Reliable Improvement in Self-Evolving Vision-Language Models}, 
+      author={Chaoran Xu and Yingmao Miao and Pengfei Zhang and Hao Dou and Lei Sun and Xiangxiang Chu},
+      year={2026},
+      eprint={2605.20914},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2605.20914}, 
+}
 
 ## Acknowledgements
 
