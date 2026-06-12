@@ -1,5 +1,7 @@
 # RISE: Reliable Improvement in Self-Evolving Vision-Language Models
 
+[![arXiv](https://img.shields.io/badge/arXiv-2605.20914-b31b1b.svg)](https://arxiv.org/abs/2605.20914)
+
 This repository contains the official code for **RISE**, a self-evolving training framework for vision-language models. RISE improves a VLM from unlabeled images by letting the model play two complementary roles:
 
 - a **questioner**, which proposes challenging image-grounded questions;
